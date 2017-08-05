@@ -15,6 +15,16 @@
 		B170C28C1F356B4700553D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B170C28A1F356B4700553D72 /* LaunchScreen.storyboard */; };
 		B170C2971F356B4800553D72 /* ChooseGoodAttributeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B170C2961F356B4800553D72 /* ChooseGoodAttributeTests.m */; };
 		B170C2A21F356B4800553D72 /* ChooseGoodAttributeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B170C2A11F356B4800553D72 /* ChooseGoodAttributeUITests.m */; };
+		B170C2BA1F356C9B00553D72 /* ModelBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = B170C2B91F356C9B00553D72 /* ModelBtn.m */; };
+		B170C2BD1F356D3900553D72 /* SelectBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = B170C2BC1F356D3900553D72 /* SelectBtn.m */; };
+		B170C2C01F356ECB00553D72 /* ZYFilterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B170C2BF1F356ECB00553D72 /* ZYFilterModel.m */; };
+		B170C2C51F357A5700553D72 /* ZYFilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B170C2C41F357A5700553D72 /* ZYFilterCell.m */; };
+		B170C2C81F359E8800553D72 /* ZYFilterSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B170C2C71F359E8800553D72 /* ZYFilterSectionHeaderView.m */; };
+		B170C2CB1F359ECA00553D72 /* ZYFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B170C2CA1F359ECA00553D72 /* ZYFilterView.m */; };
+		B170C2CE1F359F9600553D72 /* UIButton+ZYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B170C2CD1F359F9600553D72 /* UIButton+ZYKit.m */; };
+		B170C2D11F35A05700553D72 /* GoodAttributeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B170C2D01F35A05700553D72 /* GoodAttributeModel.m */; };
+		B170C2D51F35A35400553D72 /* ProductAttributeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B170C2D41F35A35400553D72 /* ProductAttributeView.m */; };
+		B170C2D71F35AA9B00553D72 /* iPhone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B170C2D61F35AA9B00553D72 /* iPhone.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,27 @@
 		B170C29D1F356B4800553D72 /* ChooseGoodAttributeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChooseGoodAttributeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B170C2A11F356B4800553D72 /* ChooseGoodAttributeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseGoodAttributeUITests.m; sourceTree = "<group>"; };
 		B170C2A31F356B4800553D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B170C2B81F356C9B00553D72 /* ModelBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBtn.h; sourceTree = "<group>"; };
+		B170C2B91F356C9B00553D72 /* ModelBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelBtn.m; sourceTree = "<group>"; };
+		B170C2BB1F356D3900553D72 /* SelectBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectBtn.h; sourceTree = "<group>"; };
+		B170C2BC1F356D3900553D72 /* SelectBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectBtn.m; sourceTree = "<group>"; };
+		B170C2BE1F356ECB00553D72 /* ZYFilterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFilterModel.h; sourceTree = "<group>"; };
+		B170C2BF1F356ECB00553D72 /* ZYFilterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYFilterModel.m; sourceTree = "<group>"; };
+		B170C2C21F356FA800553D72 /* ZYFilterMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFilterMacro.h; sourceTree = "<group>"; };
+		B170C2C31F357A5700553D72 /* ZYFilterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFilterCell.h; sourceTree = "<group>"; };
+		B170C2C41F357A5700553D72 /* ZYFilterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYFilterCell.m; sourceTree = "<group>"; };
+		B170C2C61F359E8800553D72 /* ZYFilterSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFilterSectionHeaderView.h; sourceTree = "<group>"; };
+		B170C2C71F359E8800553D72 /* ZYFilterSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYFilterSectionHeaderView.m; sourceTree = "<group>"; };
+		B170C2C91F359ECA00553D72 /* ZYFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFilterView.h; sourceTree = "<group>"; };
+		B170C2CA1F359ECA00553D72 /* ZYFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYFilterView.m; sourceTree = "<group>"; };
+		B170C2CC1F359F9600553D72 /* UIButton+ZYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZYKit.h"; sourceTree = "<group>"; };
+		B170C2CD1F359F9600553D72 /* UIButton+ZYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZYKit.m"; sourceTree = "<group>"; };
+		B170C2CF1F35A05700553D72 /* GoodAttributeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodAttributeModel.h; sourceTree = "<group>"; };
+		B170C2D01F35A05700553D72 /* GoodAttributeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodAttributeModel.m; sourceTree = "<group>"; };
+		B170C2D21F35A11100553D72 /* GoodAttributeMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GoodAttributeMacro.h; path = ZYFilterView/tableViewCell/GoodAttributeMacro.h; sourceTree = "<group>"; };
+		B170C2D31F35A35400553D72 /* ProductAttributeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductAttributeView.h; sourceTree = "<group>"; };
+		B170C2D41F35A35400553D72 /* ProductAttributeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductAttributeView.m; sourceTree = "<group>"; };
+		B170C2D61F35AA9B00553D72 /* iPhone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPhone.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +132,9 @@
 		B170C27B1F356B4700553D72 /* ChooseGoodAttribute */ = {
 			isa = PBXGroup;
 			children = (
+				B170C2AF1F356B8C00553D72 /* ChooseAttributeView */,
 				B170C27F1F356B4700553D72 /* AppDelegate.h */,
+				B170C2D61F35AA9B00553D72 /* iPhone.jpg */,
 				B170C2801F356B4700553D72 /* AppDelegate.m */,
 				B170C2821F356B4700553D72 /* ViewController.h */,
 				B170C2831F356B4700553D72 /* ViewController.m */,
@@ -138,6 +171,73 @@
 				B170C2A31F356B4800553D72 /* Info.plist */,
 			);
 			path = ChooseGoodAttributeUITests;
+			sourceTree = "<group>";
+		};
+		B170C2AF1F356B8C00553D72 /* ChooseAttributeView */ = {
+			isa = PBXGroup;
+			children = (
+				B170C2B31F356C8700553D72 /* Category */,
+				B170C2B41F356C8700553D72 /* ZYFilterView */,
+				B170C2D21F35A11100553D72 /* GoodAttributeMacro.h */,
+				B170C2D31F35A35400553D72 /* ProductAttributeView.h */,
+				B170C2D41F35A35400553D72 /* ProductAttributeView.m */,
+				B170C2CF1F35A05700553D72 /* GoodAttributeModel.h */,
+				B170C2D01F35A05700553D72 /* GoodAttributeModel.m */,
+			);
+			path = ChooseAttributeView;
+			sourceTree = "<group>";
+		};
+		B170C2B31F356C8700553D72 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B170C2CC1F359F9600553D72 /* UIButton+ZYKit.h */,
+				B170C2CD1F359F9600553D72 /* UIButton+ZYKit.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B170C2B41F356C8700553D72 /* ZYFilterView */ = {
+			isa = PBXGroup;
+			children = (
+				B170C2C21F356FA800553D72 /* ZYFilterMacro.h */,
+				B170C2C91F359ECA00553D72 /* ZYFilterView.h */,
+				B170C2CA1F359ECA00553D72 /* ZYFilterView.m */,
+				B170C2B51F356C8700553D72 /* CustomView */,
+				B170C2B61F356C8700553D72 /* Model */,
+				B170C2B71F356C8700553D72 /* tableViewCell */,
+			);
+			path = ZYFilterView;
+			sourceTree = "<group>";
+		};
+		B170C2B51F356C8700553D72 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				B170C2C61F359E8800553D72 /* ZYFilterSectionHeaderView.h */,
+				B170C2C71F359E8800553D72 /* ZYFilterSectionHeaderView.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		B170C2B61F356C8700553D72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B170C2BE1F356ECB00553D72 /* ZYFilterModel.h */,
+				B170C2BF1F356ECB00553D72 /* ZYFilterModel.m */,
+				B170C2BB1F356D3900553D72 /* SelectBtn.h */,
+				B170C2BC1F356D3900553D72 /* SelectBtn.m */,
+				B170C2B81F356C9B00553D72 /* ModelBtn.h */,
+				B170C2B91F356C9B00553D72 /* ModelBtn.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B170C2B71F356C8700553D72 /* tableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B170C2C31F357A5700553D72 /* ZYFilterCell.h */,
+				B170C2C41F357A5700553D72 /* ZYFilterCell.m */,
+			);
+			path = tableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B170C2D71F35AA9B00553D72 /* iPhone.jpg in Resources */,
 				B170C28C1F356B4700553D72 /* LaunchScreen.storyboard in Resources */,
 				B170C2891F356B4700553D72 /* Assets.xcassets in Resources */,
 				B170C2871F356B4700553D72 /* Main.storyboard in Resources */,
@@ -276,8 +377,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B170C2C81F359E8800553D72 /* ZYFilterSectionHeaderView.m in Sources */,
 				B170C2841F356B4700553D72 /* ViewController.m in Sources */,
+				B170C2C51F357A5700553D72 /* ZYFilterCell.m in Sources */,
+				B170C2CE1F359F9600553D72 /* UIButton+ZYKit.m in Sources */,
+				B170C2BD1F356D3900553D72 /* SelectBtn.m in Sources */,
+				B170C2D51F35A35400553D72 /* ProductAttributeView.m in Sources */,
+				B170C2D11F35A05700553D72 /* GoodAttributeModel.m in Sources */,
+				B170C2C01F356ECB00553D72 /* ZYFilterModel.m in Sources */,
+				B170C2CB1F359ECA00553D72 /* ZYFilterView.m in Sources */,
 				B170C2811F356B4700553D72 /* AppDelegate.m in Sources */,
+				B170C2BA1F356C9B00553D72 /* ModelBtn.m in Sources */,
 				B170C27E1F356B4700553D72 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
